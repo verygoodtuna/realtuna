@@ -1,0 +1,135 @@
+body {
+    overflow-x: hidden;
+}
+
+.main_page01 {
+    background: #f0f0f0;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.main_page01 .top_slide {
+    position: absolute;
+    top: -16%;
+    left: 50%;
+    transform: translate(-50%, 0) rotate(-10deg);
+}
+
+.main_page01 .top_slide .top{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 0 15px;
+}
+
+.main_page01 .top_slide .top figure {
+    border-radius: 10px;
+}
+
+.main_page01 .top_slide .top01 figure{
+    background: url(../imges/sajotuna.png)no-repeat top center/cover;
+    height: 400px;
+}
+.main_page01 .top_slide .top02 figure{
+    background: url(../imges/bluestone.png)no-repeat top center/cover;
+    height: 400px;
+}
+.main_page01 .top_slide .top03 figure{
+    background: url(../imges/movingegg.png)no-repeat top center/cover;
+    height: 400px;
+}
+.main_page01 .top_slide .top04 figure{
+    background: url(../imges/shinil.png)no-repeat top center/cover;
+    height: 400px;
+}
+.main_page01 .top_slide .top05 figure{
+    background: url(../imges/sk.png)no-repeat top center/cover;
+    height: 400px;
+}
+.main_page01 .top_slide .top06 figure{
+    background: url(../imges/playstation.png)no-repeat top center/cover;
+    height: 400px;
+}
+
+.main_page01 .bottom_slide {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 0) rotate(-10deg);
+    overflow: hidden;
+}
+
+.main_page01 .bottom_slide .bottom{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 0 15px;
+}
+
+.main_page01 .bottom_slide .bottom figure {
+    border-radius: 10px;
+}
+
+.main_page01 .bottom_slide .bottom01 figure{
+    background: url(../imges/playstation.png)no-repeat top center/cover;
+    height: 400px;
+}
+.main_page01 .bottom_slide .bottom02 figure{
+    background: url(../imges/sk.png)no-repeat top center/cover;
+    height: 400px;
+}
+.main_page01 .bottom_slide .bottom03 figure{
+    background: url(../imges/shinil.png)no-repeat top center/cover;
+    height: 400px;
+}
+.main_page01 .bottom_slide .bottom04 figure{
+    background: url(../imges/movingegg.png)no-repeat top center/cover;
+    height: 400px;
+}
+.main_page01 .bottom_slide .bottom05 figure{
+    background: url(../imges/bluestone.png)no-repeat top center/cover;
+    height: 400px;
+}
+.main_page01 .bottom_slide .bottom06 figure{
+    background: url(../imges/sajotuna.png)no-repeat top center/cover;
+    height: 400px;
+}
+
+.main_page01 .txt_box {
+    position: absolute;
+    bottom: -33%;
+    left: 50%;
+    transform: translate(-50%, 0) rotate(-10deg);
+    width: 200%;
+    height: 550px;
+    background: #528AA9;
+    z-index: 1;
+}
+
+.main_page01 .txt {
+    position: absolute;
+    top: 34%;
+    right: 26%;
+    transform: translate(0, -50%) rotate(10deg);
+    z-index: 998;
+    text-align: right;
+    color: #fff;
+}
+
+.main_page01 .txt span {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.main_page01 .txt h1 {
+    font-size: 75px;
+    font-weight: 700;
+    margin: 0 0 28px 0;
+}
+
+.main_page01 .txt p {
+    font-size: 24px;
+    font-weight: 400;
+}
