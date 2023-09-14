@@ -1,7 +1,7 @@
 const ASIDE = document.querySelectorAll('.link_btn li');
 
 new fullpage('#main', {
-    anchors: ['main_page01', 'main_sajo', 'p03', 'footer'],
+    anchors: ['intro', 'project'],
     responsiveWidth: 700,
     css3: false,
     scrollOverflow: false,
